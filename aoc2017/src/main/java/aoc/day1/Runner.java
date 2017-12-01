@@ -37,7 +37,6 @@ public class Runner {
 		StringCharacterIterator iterator = new StringCharacterIterator(input);
 		int sum = 0;
 		for (int i = 0; i < input.length() - 1; i++) {
-
 			int current = input.charAt(i);
 			int next = input.charAt(i + 1);
 			if (current == next) {
